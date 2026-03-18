@@ -1,0 +1,17 @@
+# Dependencies & build artifacts
+node_modules/
+cache/
+artifacts/
+
+# Environment secrets — NEVER commit this
+.env
+
+# Hardhat / TypeScript
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# OS files
+.DS_Store
+Thumbs.db
