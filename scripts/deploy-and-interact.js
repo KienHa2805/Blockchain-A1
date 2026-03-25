@@ -112,11 +112,3 @@ main()
     console.error("❌ Error:", error);
     process.exit(1);
   });
-
-// Run the main function and handle errors.
-main()
-  .then(() => process.exit(0))
-  .catch((error) => {
-    console.error("❌ Error:", error);
-    process.exit(1);
-  });
